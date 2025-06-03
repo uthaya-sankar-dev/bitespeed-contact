@@ -4,7 +4,7 @@ This Node.js service deduplicates and links contact records based on email and p
 
 ## Important Missing Test Case (Assessment Clarification)
 
-The [original problem statement](https://bitespeed.notion.site/Bitespeed-Backend-Task-Identity-Reconciliation-1fb21bb2a930802eb896d4409460375c) does not mention what should happen when there are related contacts but none marked as PRIMARY against input request body.(i.e Both email & Phone are from secondary contacts)
+The [original problem statement](https://bitespeed.notion.site/Bitespeed-Backend-Task-Identity-Reconciliation-1fb21bb2a930802eb896d4409460375c) does not mention what should happen when there are related contacts but none marked as PRIMARY against input request body.(i.e In input request both email & Phone are from secondary contacts)
 
 ### Example
 
@@ -101,11 +101,11 @@ New State of database
 ]
 ```
 
-Note: Using oldest Secondary contact in linking the new Contact.
+Note: Using oldest Secondary contact for linking the new Contact.
 
 ## Deployed URL
 
-**API Endpoint:** : [TBA]("")
+**API Endpoint:** : ["https://bitespeed-latest-2ybg.onrender.com/identify"]("https://bitespeed-latest-2ybg.onrender.com/identify")
 
 ## Tech Stack
 

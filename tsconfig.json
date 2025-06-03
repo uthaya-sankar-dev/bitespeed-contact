@@ -87,7 +87,6 @@
     "noUnusedParameters": true,
     "noUncheckedIndexedAccess": true,
     "outDir": "dist",
-    "rootDir": "src",
 
     /* Type Checking */
     "strict": true /* Enable all strict type-checking options. */,

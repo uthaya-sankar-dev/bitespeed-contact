@@ -1,4 +1,4 @@
-import { Contact } from "../../generated/prisma";
+import { Contact } from "@prisma/client";
 import CustomException from "../helpers/customException";
 import prismaClient from "../prisma/client";
 

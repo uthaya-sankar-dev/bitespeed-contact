@@ -2,11 +2,10 @@
   "name": "bitespeed_contact",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "build": "tsc --build",
     "dev": "dotenv nodemon",
-    "start": "npm run build && node dist/index.js"
+    "start": "npm run build && node dist/server.js"
   },
   "keywords": [],
   "author": "",
@@ -18,13 +17,13 @@
     "@types/node": "^22.15.29",
     "dotenv-cli": "^8.0.0",
     "nodemon": "^3.1.10",
-    "prisma": "^6.8.2",
     "tsx": "^4.19.4",
     "typescript": "^5.8.3"
   },
   "dependencies": {
     "@prisma/client": "^6.8.2",
     "cors": "^2.8.5",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "prisma": "^6.8.2"
   }
 }
